@@ -1,0 +1,110 @@
+.middle{
+	 background-color: lightgrey;
+	 	margin-left:80px;
+	margin-right:80px;
+	height:1200px;
+	margin-top:15px;
+	 border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.unit{
+	width:250px;
+	color: white;
+	height:1000px;
+	float:left;
+}
+  .button {
+    background-color: #151B54; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+    display: block;
+	
+}
+.doctor{
+	width:78;
+	
+	height:100%;
+	margin-left:22%;
+	padding-top:10px;
+	
+}
+tr,td{
+	border-bottom:3px solid blue;
+	padding:10px;
+}
+
+ .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.button:hover {
+    background-color: black;
+}
+ .nav  button{
+float: left;
+width:40px;
+background-color: #151B54;
+color:white;
+margin:8px;
+}
+.nav ul {
+	margin-top:20px;
+	height:100px;
+	overflow:hidden;
+
+}
+.nav a{
+
+
+	 display: block;
+}
+span{
+	font-size:20px;
+	color:blue;
+}
+.alpha{
+	position:absolute;
+	padding:120px;
+}
+@media screen and (max-width:959px){
+.middle{
+  width:100%;
+}
+.unit{
+  width:100%;
+}
+.button{
+  width:100%;
+}
+img{
+  width:100%;
+}
+}
+
+@media screen and (max-width:640px){
+.middle{
+  width:100%;
+}
+.unit{
+  width:100%;
+}
+}
+
+@media screen and (max-width:320px){
+.middle{
+  width:320px;
+}
+.unit{
+  width:320px;
+}
+}

@@ -1,0 +1,15 @@
+.middle{
+	
+	 	margin-left:80px;
+	margin-right:80px;
+	height:300px;
+	margin-top:5px;
+	 border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.unit{
+	width:200px;
+	background-color:white
+}
